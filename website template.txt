@@ -1,0 +1,81 @@
+Education Html
+
+Section one: My Undergraduate at UofT
+
+Header: I am studying at UofT in a program called, Technology Coding Society
+
+Subheader: What am I learning?
+In the Technology, Coding & Society (TCS) program, I'm learning to think critically and creatively at the intersection of design, code, and people. The program bridges front-end development, UX design, and digital ethics, giving me a strong foundation in both the technical skills and the human-centered thinking essential for meaningful digital experiences.
+I’m developing:
+UX design thinking – understanding how users interact with interfaces, and designing with empathy.
+Front-end coding – building real apps with HTML, CSS, JavaScript, and more.
+Prototyping & evaluation – iterating on designs with feedback and usability testing.
+Social insight – learning how digital platforms shape (and are shaped by) culture, identity, and ethics.
+Whether I’m sketching wireframes or coding interactions, I’m always learning how to create experiences that are intuitive, inclusive, and impactful.
+
+Subheader: Course Synopsis
+
+Here are a few standout courses shaping my approach to UX and front-end development:
+
+Box one: CCT208 – Communications Research Methods Introduces research design and analysis—essential for UX research, user testing, and data-driven design decisions.
+
+Box two: CCT285 – Immersive Environment Design Explores how to design interactive 3D and immersive spaces, bridging creativity, usability, and spatial thinking.
+
+Box three: CCT211 – Fundamentals of UI Programming Covers essential programming skills for front-end development, with hands-on experience in building interactive user interfaces.
+
+Box four: CCT380 – Human-Computer Interaction A deep dive into how we interact with technology—from accessibility to intelligent interfaces. This course sharpened my ability to design with empathy and inclusivity in mind
+
+Box five: CCT477 – UX Design: Understanding Users Here, I learned to map user needs and apply UX research methods. It connected human factors with the structure of digital platforms.
+
+Box six: CCT478 – UX Design: Prototyping & Evaluation Where ideas become interactive. This course emphasized prototyping, usability testing, and iteration—core skills for any UX or front-end professional.
+
+Box seven: CCT432 – Ethics and Code Designing responsibly means asking tough questions. This course helped me understand how digital systems can either challenge or reinforce societal biases.
+
+Section two My Certifications 
+
+Header: My Certifications 
+
+Subhead: IBM Full Stack Developer
+
+This professional certification builds practical skills in front-end, back-end, and cloud-based development, preparing me to create and deploy full-stack applications from end to end. This certification complements my university coursework by deepening my technical skills and hands-on experience—especially in areas essential for front-end roles, UX prototyping, and full-stack collaboration.
+
+Here are a few standout lessons shaping my approach to UX and front-end development:
+
+Introduction to Web Development with HTML, CSS & JavaScript
+React Basics
+Python for Data Science, AI & Development
+Developing Applications with Node.js and Express
+Introduction to Cloud Computing
+DevOps, Agile, and Git
+
+Link to course here: IBM Full Stack Software Developer Professional Certificate | Coursera 
+
+
+
+
+Skills html
+
+Header “I can use these tools!
+
+Legend: 
+Green dot - Experienced in
+Blue dot - Certified in
+Red dot - Highly experienced in 
+
+Figma 
+Html5
+Css
+Javascript 
+Java
+JavaFX
+React
+Adobe Indesign 
+Adobe 
+Git
+Github
+Python 
+Procreate 
+Node.js
+Vite
+My Blog html
+In progress.

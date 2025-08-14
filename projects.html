@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gekota's Nook/ Projects</title>
+    <link rel="shortcut icon" href="frog/frog.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="projects-page">
+     <!-- Corner Logo -->
+    <a href="index.html" class="corner-logo-link">
+        <img src="frog/frog.png" alt="Logo" id="frog-logo">
+    </a>
+
+
+
+    <!-- Navbar -->
+     <nav>
+      <ul>
+        <li class="hideOnMobile"><a href="index.html">about</a></li>
+        <li class="hideOnMobile"><a href="projects.html">projects</a></li>
+        <li class="hideOnMobile"><a href="education.html">education</a></li>
+        <li class="hideOnMobile"><a href="skills.html">skills</a></li>
+        <li class="hideOnMobile"><a href="myblog.html">my blog</a></li>
+        <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#3d405b"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+      </ul>
+
+      <ul class="sidebar">
+         <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#3d405b"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><a href="index.html">about</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="education.html">education</a></li>
+        <li><a href="skills.html">skills</a></li>
+        <li><a href="myblog.html">my blog</a></li>
+      </ul>
+   </nav>
+
+   <!-- Project Workflow TOC on the left -->
+   <div class="toc-vertical">
+  <ul>
+    <li>
+      <a href="#project1" class="toc-project-title">Nom Roller</a>
+      <ul class="toc-sub-options">
+        <li><a href="#project1-problem">Problem</a></li>
+        <li><a href="#project1-method">Method / Process</a></li>
+        <li><a href="#project1-solution">Solution</a></li>
+        <li><a href="#project1-validation">Validation</a></li>
+        <li><a href="#project1-iteration">Iteration</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#project2" class="toc-project-title">Coming Soon...</a>
+      <ul class="toc-sub-options">
+        <li><a href="#project2-problem">Problem</a></li>
+        <li><a href="#project2-method">Method / Process</a></li>
+        <li><a href="#project2-solution">Solution</a></li>
+        <li><a href="#project2-validation">Validation</a></li>
+        <li><a href="#project2-iteration">Iteration</a></li>
+      </ul>
+    </li>
+    <!-- Add more projects here -->
+  </ul>
+</div>
+
+   <section class="content page-fade" id="content">
+        <h1>My Projects</h1>
+        <!-- Remove the old glass-toc here -->
+        <div class="projects-list">
+            <section class="project-section glass" id="project1">
+                <h2>Nom Roller</h2>
+                <p class="project-desc">Short description of the project and its goals.</p>
+                <img src="Nom_Roller/Nom_Overview.png" alt="Nom Roller 1" class="project-img">
+                <ul class="project-steps">
+                  <li id="project1-problem">
+                    <h4>Problem</h4>
+                    <p>Describe the problem you aimed to solve.</p>
+                    <img src="Nom_Roller/Nom_low-fidelity.png" alt="Nom Roller 2" class="project-img">
+                  </li>
+                  <li id="project1-method">
+                    <h4>Method / Process</h4>
+                    <p>Explain your approach and process.</p>
+                    <img src="Nom_Roller/Nom_Colours.png" alt="Nom Roller 3" class="project-img">
+                    <img src="Nom_Roller/Nom_Type.png" alt="Nom Roller 4" class="project-img">
+                    <img src="Nom_Roller/Nom_Logo.png" alt="Nom Roller 5" class="project-img">
+                  </li>
+                  <li id="project1-solution">
+                    <h4>Solution</h4>
+                    <p>Summarize your solution.</p>
+                  <iframe 
+                    style="border: 0px solid rgba(0, 0, 0, 0.1);" 
+                    width="450" 
+                    height="450" 
+                    src="https://embed.figma.com/proto/gFWvx2QGcUpa9KjzOLQbNj/Nom-Roulette?node-id=106-410&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=106%3A410&embed-host=share" 
+                    allowfullscreen>
+                  </iframe>
+                  </li>
+                  <li id="project1-validation">
+                    <h4>Validation / Measurement</h4>
+                    <p>How did you validate or measure success?</p>
+                    <img src="Nom_Roller/Nom_Feedback.png" alt="Nom Roller 6" class="project-img">
+                  </li>
+                  <li id="project1-iteration">
+                    <h4>Iteration</h4>
+                    <p>What did you improve or change?</p>
+                  </li>
+                </ul>
+            </section>
+            <section class="project-section glass" id="project2">
+                <h2>Coming Soon...</h2>
+                <p class="project-desc">A super cool project in progress!</p>
+                <ul class="project-steps">
+                    <li id="project2-problem">
+                        <h4>Problem</h4>
+                        <p>...</p>
+                    </li>
+                    <li id="project2-method">
+                        <h4>Method / Process</h4>
+                        <p>...</p>
+                    </li>
+                    <li id="project2-solution">
+                        <h4>Solution</h4>
+                        <p>...</p>
+                    </li>
+                    <li id="project2-validation">
+                        <h4>Validation / Measurement</h4>
+                        <p>...</p>
+                    </li>
+                    <li id="project2-iteration">
+                        <h4>Iteration</h4>
+                        <p>...</p>
+                    </li>
+                </ul>
+            </section>
+            <!-- Add more project sections as needed -->
+        </div>
+
+    <footer>
+    <div>
+      <strong>&copy; 2025 Ava De Mello &mdash; Gekota's Nook</strong>
+      <br>
+      <a href="mailto:ava.demello@gmail.com">ava.demello@gmail.com</a>
+      <span>&bull;</span>
+      <a href="https://github.com/TheGekota" target="_blank">GitHub</a>
+      <span>&bull;</span>
+      <a href="https://www.linkedin.com/in/ava-de-mello-274778302/" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+    </section>
+
+</body>
+</html>

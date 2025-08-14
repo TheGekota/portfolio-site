@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gekota's Nook / My Blog</title>
+    <link rel="shortcut icon" href="frog/frog.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+   <!-- Corner Logo -->
+  <a href="index.html" class="corner-logo-link">
+    <img src="frog/frog.png" alt="Logo" id="frog-logo">
+  </a>
+
+
+    
+    <!-- Navbar -->
+     <nav>
+      <ul>
+        <li class="hideOnMobile"><a href="index.html">about</a></li>
+        <li class="hideOnMobile"><a href="projects.html">projects</a></li>
+        <li class="hideOnMobile"><a href="education.html">education</a></li>
+        <li class="hideOnMobile"><a href="skills.html">skills</a></li>
+        <li class="hideOnMobile"><a href="myblog.html">my blog</a></li>
+        <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#3d405b"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+      </ul>
+
+      <ul class="sidebar">
+         <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#3d405b"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><a href="index.html">about</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="education.html">education</a></li>
+        <li><a href="skills.html">skills</a></li>
+        <li><a href="myblog.html">my blog</a></li>
+      </ul>
+   </nav>
+
+    <div class="content page-fade" id="content">
+    <h1>My Blog</h1>
+    <div class="bulletin-board" id="bulletin-board">
+        <!-- Posts will be injected here by JS -->
+    </div>
+
+
+    <footer>
+    <div>
+      <strong>&copy; 2025 Ava De Mello &mdash; Gekota's Nook</strong>
+      <br>
+      <a href="mailto:ava.demello@gmail.com">ava.demello@gmail.com</a>
+      <span>&bull;</span>
+      <a href="https://github.com/TheGekota" target="_blank">GitHub</a>
+      <span>&bull;</span>
+      <a href="https://www.linkedin.com/in/ava-de-mello-274778302/" target="_blank">LinkedIn</a>
+    </div>
+    </footer>
+    </div>
+
+    
+</body>
+</html>

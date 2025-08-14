@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gekota's Nook / Education</title>
+    <link rel="shortcut icon" href="frog/frog.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Bungee&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+  <body class="education-page">
+   <!-- Corner Logo -->
+  <a href="index.html" class="corner-logo-link">
+    <img src="frog/frog.png" alt="Logo" id="frog-logo">
+  </a>
+
+
+   <!-- Navbar -->
+   <nav>
+      <ul>
+        <li class="hideOnMobile"><a href="index.html">about</a></li>
+        <li class="hideOnMobile"><a href="projects.html">projects</a></li>
+        <li class="hideOnMobile"><a href="education.html">education</a></li>
+        <li class="hideOnMobile"><a href="skills.html">skills</a></li>
+        <li class="hideOnMobile"><a href="myblog.html">my blog</a></li>
+        <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#3d405b"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+      </ul>
+
+      <ul class="sidebar">
+         <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#3d405b"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><a href="index.html">about</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="education.html">education</a></li>
+        <li><a href="skills.html">skills</a></li>
+        <li><a href="myblog.html">my blog</a></li>
+      </ul>
+   </nav>
+
+    <div class="toc-vertical">
+    <ul>
+      <li><a href="#education_overview">My Undergraduate</a></li>
+      <li><a href="#certifications">My Certifications</a></li>
+      <!-- Add more as needed -->
+    </ul>
+    </div>
+
+
+   <div class="content page-fade" id="content">
+      <section id="education_overview">
+        <h1>My Undergraduate at UofT</h1>
+        <h2>What am I learning?</h2>
+        <p>
+          In the Technology, Coding & Society (TCS) program, I’m building skills at the intersection of design, code, and people—combining front-end development, UX design, and digital ethics. I’m gaining both technical expertise and human-centered thinking through:
+        </p>
+        <ul>
+          <li>UX thinking – designing with empathy based on how users interact with interfaces.</li>
+          <li>Front-end coding – creating real apps with HTML, CSS, and JavaScript.</li>
+          <li>Prototyping and evaluation – refining designs through feedback and usability testing.</li>
+          <li>Social insight – exploring how digital platforms shape and reflect culture, identity, and ethics.</li>
+        </ul>
+        <h2>Course Synopsis</h2>
+        <p>
+          Here are standout courses shaping my UX and front-end development approach—oh, please feed the frog!!!</p>
+        <div class="courses">
+          <ul>
+            <li>
+              <div class="glass-box course-box" data-course="CCT208">
+                <strong>CCT208 Communications Research Methods</strong>
+                Introduces research design and analysis—essential for UX research, user testing, and data-driven design decisions.
+                <button class="collect-btn">Feed Frog</button>
+              </div>
+            </li>
+            <li>
+              <div class="glass-box course-box" data-course="CCT380">
+                <strong>CCT380 Human-Computer Interaction</strong>
+                A deep dive into how we interact with technology—from accessibility to intelligent interfaces. This course sharpened my ability to design with empathy and inclusivity in mind.
+                <button class="collect-btn">Feed Frog</button>
+              </div>
+            </li>
+            <li>
+              <div class="glass-box course-box" data-course="CCT477">
+                <strong>CCT477 UX Design: Understanding Users</strong>
+                Here, I learned to map user needs and apply UX research methods. It connected human factors with the structure of digital platforms.
+                <button class="collect-btn">Feed Frog</button>
+              </div>
+            </li>
+            <li>
+              <div class="glass-box course-box" data-course="CCT478">
+                <strong>CCT478 UX Design: Prototyping &amp; Evaluation</strong>
+                Where ideas become interactive. This course emphasized prototyping, usability testing, and iteration—core skills for any UX or front-end professional.
+                <button class="collect-btn">Feed Frog</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <button id="frog-eat-btn">
+            <img src="frog/frog_close.png" alt="Frog eats knowledge" id="frog-eat-img">
+            <span class="frog-hunger-label">Feed Me knowledge!</span>
+        </button>
+      </section>
+
+      
+
+      <section id="certifications">
+        <h1>Certifications</h1>
+        <p> I’m earning certifications to gain hands-on experience with industry-standard tools that complement my undergraduate studies!
+        <div class="certification-list">
+        
+
+          <!-- IBM Full Stack Developer Certification Section -->
+            <ul class="cert-list">
+              <li>
+                <div class="glass-box cert-badge">
+                  <div class="cert-title">IBM Full Stack Developer Certification</div>
+                  <div class="cert-org">Coursera</div>
+                  <div class="cert-date">In Progress</div>
+                  <a class="cert-link" href="https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer" target="_blank">About Certification</a>
+                </div>
+              </li>
+            </ul>
+
+          <!-- Other Certifications Section -->
+            <ul class="cert-list">
+              <li>
+                <div class="glass-box cert-badge">
+                  <div class="cert-title">2D Animation Learning Experience</div>
+                  <div class="cert-org">Apple Leadership and Learning</div>
+                  <div class="cert-date">May 18, 2023</div>
+                  <a class="cert-link" href="cert_apple.jpg" target="_blank">About Certification</a>
+                </div>
+              </li>
+            </ul>
+        </div>
+      </section>
+    
+    <footer>
+    <div>
+      <strong>&copy; 2025 Ava De Mello &mdash; Gekota's Nook</strong>
+      <br>
+      <a href="mailto:ava.demello@gmail.com">ava.demello@gmail.com</a>
+      <span>&bull;</span>
+      <a href="https://github.com/TheGekota" target="_blank">GitHub</a>
+      <span>&bull;</span>
+      <a href="https://www.linkedin.com/in/ava-de-mello-274778302/" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+  
+   </div>
+</body>
+</html>

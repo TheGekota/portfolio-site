@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gekota's Nook / Skills</title>
+    <link rel="shortcut icon" href="frog/frog.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Bungee&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body class="skills-page">
+   <!-- Corner Logo -->
+  <a href="index.html" class="corner-logo-link">
+    <img src="frog/frog.png" alt="Logo" id="frog-logo">
+  </a>
+
+
+   <!-- Navbar -->
+      <nav>
+      <ul>
+        <li class="hideOnMobile"><a href="index.html">about</a></li>
+        <li class="hideOnMobile"><a href="projects.html">projects</a></li>
+        <li class="hideOnMobile"><a href="education.html">education</a></li>
+        <li class="hideOnMobile"><a href="skills.html">skills</a></li>
+        <li class="hideOnMobile"><a href="myblog.html">my blog</a></li>
+        <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#3d405b"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+      </ul>
+
+      <ul class="sidebar">
+         <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#3d405b"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><a href="index.html">about</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="education.html">education</a></li>
+        <li><a href="skills.html">skills</a></li>
+        <li><a href="myblog.html">my blog</a></li>
+      </ul>
+   </nav>
+
+   <div class="content page-fade" id="content">
+      <section id="skills_overview">
+      <h1 id="skill-title">Skills and Tools I Can use!</h1>
+      <p>
+        <span class="legend-row">
+          <span class="legend-item">
+            <span class="legend-dot experienced"></span> Experienced in
+          </span>
+          <span class="legend-item">
+            <span class="legend-dot very-experienced"></span> Very Experienced in
+          </span>
+        </span>
+      </p>
+      <div class="tool-scroll-container">
+        <div class="tool-scatter-scroll" id="tool-scroll">
+          <div class="tool-box" data-color="blue"><span style="color:rgb(95, 102, 196);">&#9679;</span> Figma</div>
+          <div class="tool-box" data-color="green"><span style="color:rgb(92, 172, 92);">&#9679;</span> HTML</div>
+          <div class="tool-box" data-color="blue"><span style="color:rgb(95, 102, 196);">&#9679;</span> CSS</div>
+          <div class="tool-box" data-color="green"><span style="color:rgb(92, 172, 92);">&#9679;</span> JavaScript</div>
+          <div class="tool-box" data-color="green"><span style="color:rgb(92, 172, 92);">&#9679;</span> Java</div>
+          <div class="tool-box" data-color="blue"><span style="color:rgb(95, 102, 196);">&#9679;</span> Canva</div>
+          <div class="tool-box" data-color="green"><span style="color:rgb(92, 172, 92);">&#9679;</span> JavaFX</div>
+          <div class="tool-box" data-color="green"><span style="color:rgb(92, 172, 92);">&#9679;</span> React</div>
+          <div class="tool-box" data-color="blue"><span style="color:rgb(95, 102, 196);">&#9679;</span> Adobe Creative Cloud</div>
+          <div class="tool-box" data-color="blue"><span style="color:rgb(95, 102, 196);">&#9679;</span> Python</div>
+          <div class="tool-box" data-color="green"><span style="color:rgb(92, 172, 92);">&#9679;</span> Git</div>
+          <div class="tool-box" data-color="blue"><span style="color:rgb(95, 102, 196);">&#9679;</span> Procreate</div>
+          <div class="tool-box" data-color="green"><span style="color:rgb(92, 172, 92);">&#9679;</span> GitHub</div>
+          <div class="tool-box" data-color="blue"><span style="color:rgb(95, 102, 196);">&#9679;</span> Notion</div>
+          <div class="tool-box" data-color="green"><span style="color:rgb(92, 172, 92);">&#9679;</span> Framer</div>
+        </div>
+      </div>
+
+      <div class="skills-container interactive-skills">
+  <h2>Hard Skills</h2>
+  <p>What Powers My Work! Psst-, find Gekotas lost toy, <strong>in the cards!</strong></p>
+  <div class="skills-grid" id="skills-grid">
+    <div class="skill-card">
+      <div class="card-front">Wireframing &amp; Prototyping</div>
+      <div class="card-back">Create interactive wireframes and prototypes for UI/UX.</div>
+    </div>
+    <div class="skill-card">
+      <div class="card-front">User Research &amp; Testing</div>
+      <div class="card-back">Conduct user interviews, surveys, and usability tests.</div>
+    </div>
+    <div class="skill-card">
+      <div class="card-front">Interaction Design</div>
+      <div class="card-back"></div>
+    </div>
+    <div class="skill-card">
+      <div class="card-front">Version Control</div>
+      <div class="card-back"></div>
+    </div>
+    <div class="skill-card">
+      <div class="card-front">Basic API Integration</div>
+      <div class="card-back"></div>
+    </div>
+    <div class="skill-card">
+      <div class="card-front">Agile / Scrum Basics</div>
+      <div class="card-back"></div>
+    </div>
+    <div class="skill-card">
+      <div class="card-front">Documentation</div>
+      <div class="card-back"></div>
+    </div>
+    <div class="skill-card">
+      <div class="card-front">Stakeholder Communication</div>
+      <div class="card-back"></div>
+    </div>
+    <div class="skill-card">
+      <div class="card-front">Basic Graphic Design</div>
+      <div class="card-back"></div>
+    </div>
+    <div class="skill-card">
+      <div class="card-front">No-Code Tools</div>
+      <div class="card-back"></div>
+    </div>
+    <div class="skill-card">
+      <div class="card-front">Data Visualization</div>
+      <div class="card-back"></div>
+    </div>
+  </div>
+</div>
+    </section>
+  <footer>
+    <div>
+      <strong>&copy; 2025 Ava De Mello &mdash; Gekota's Nook</strong>
+      <br>
+      <a href="mailto:ava.demello@gmail.com">ava.demello@gmail.com</a>
+      <span>&bull;</span>
+      <a href="https://github.com/TheGekota" target="_blank">GitHub</a>
+      <span>&bull;</span>
+      <a href="https://www.linkedin.com/in/ava-de-mello-274778302/" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+   </div>
+   <img src="frog/frog.png" id="frog-anim" style="display:none; position:fixed; left:0; bottom:40px; width:80px; z-index:3000;">
+</body>
+</html>
