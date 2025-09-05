@@ -1551,7 +1551,7 @@ button, .collect-btn, .learn-more-link, nav a, .project-title {
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh;
-  padding: 120px 32px 48px 32px;
+  padding: 120px 48px 48px 48px;
   box-sizing: border-box;
 }
 
@@ -1567,12 +1567,11 @@ button, .collect-btn, .learn-more-link, nav a, .project-title {
   gap: 2.5rem;
   width: 100%;
 }
-
 .project-section.glass {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1500px;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: 5rem 5rem 5rem 7rem; /* Increased left padding for better text wrap */
   background: rgba(255, 255, 255, 0.18); /* more transparent glass effect */
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -1591,23 +1590,14 @@ button, .collect-btn, .learn-more-link, nav a, .project-title {
   margin-bottom: 1.2rem;
   box-shadow: 0 2px 12px rgba(60, 64, 91, 0.10);
   display: block;
-  margin-left: 0;
-  margin-right: auto;
   background: #fff;      /* optional: white background for transparency */
 }
 
 .project-section h2 {
   margin-top: 0;
-  font-family: 'Bungee', cursive;
-  color: #3d405b;
+  font-family: 'Albert Sans', sans-serif;
+  color: #E07A5F;
   text-align: left;
-}
-
-.project-desc {
-  font-size: 1.1rem;
-  margin-bottom: 1.2rem;
-  color: #444;
-  text-align: center;
 }
 
 .project-steps {
@@ -1621,8 +1611,9 @@ button, .collect-btn, .learn-more-link, nav a, .project-title {
 }
 
 .project-steps h4 {
-    margin-bottom: 0.3rem;
+    margin-top: 0px;
     color: #E07A5F;
+    font-size: 30px;
     font-weight: 300;
 }
 
