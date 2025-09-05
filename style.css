@@ -972,19 +972,6 @@ shine-text {
         max-width: 340px;
   }
 
-  .toc-vertical {
-    display: none !important;
-    visibility: hidden !important;
-    pointer-events: none !important;
-    height: 0 !important;
-    width: 0 !important;
-    min-width: 0 !important;
-    max-width: 0 !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    overflow: hidden !important;
-  }
-
 }
 
 
@@ -1637,70 +1624,6 @@ button, .collect-btn, .learn-more-link, nav a, .project-title {
     margin-bottom: 0.3rem;
     color: #E07A5F;
     font-weight: 300;
-}
-
-/* TOC Vertical ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-
-.toc-vertical.simple-toc {
-  position: fixed;
-  left: 32px;
-  top: 50%;
-  transform: translateY(-50%);
-  border-radius: 12px;
-  padding: 18px 20px;
-  z-index: 1200;
-  min-width: 120px;
-  max-width: 600px;
-  display: flex;
-  flex-direction: column;
-  font-family: "Albert Sans", sans-serif;
-  border: 1px solid #ececec;
-}
-
-.toc-vertical.simple-toc nav {
-  width: 100%;
-}
-
-.toc-vertical.simple-toc ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-
-.toc-vertical.simple-toc li {
-  margin-bottom: 1.2em;
-  text-align: center;
-}
-
-.toc-vertical.simple-toc .toc-project-title {
-  font-weight: 500;
-  color: #3d405b;
-  font-size: 1.08em;
-  text-decoration: none;
-  padding: 6px 0;
-  border-radius: 6px;
-  display: block;
-  transition: background 0.18s, color 0.18s;
-}
-
-.toc-vertical.simple-toc .toc-project-title:hover,
-.toc-vertical.simple-toc .toc-project-title:focus {
-  background: #f4f1de;
-  color: #E07A5F;
-  text-decoration: underline;
-  outline: none;
-}
-
-.toc-vertical.simple-toc {
-  border: 2px solid red !important;
-}
-
-/* Hide on small screens */
-@media (max-width: 700px) {
-  .toc-vertical.simple-toc {
-    display: none !important;
-  }
 }
 
 /* Skills Page ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
