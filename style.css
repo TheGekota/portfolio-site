@@ -768,8 +768,6 @@ shine-text {
 }
 
 
-
-
 /* MOBILE RESIZE ++++++++++++++++++++++++++++++++++++++++++++++ */
 
 @media (max-width: 500px) {
@@ -957,6 +955,19 @@ shine-text {
     text-align: center !important;
     align-items: center !important;
   }
+
+  .project-section h2
+  { 
+    font-size: 38px;
+    padding-bottom: 16px;
+  }
+
+  .project-section p, ul, h4
+  {
+    font-size: 30px;
+    padding-bottom: 16px;
+  }
+
 }
 
 /* BIG DEVICE RESPONSIVE ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -986,6 +997,7 @@ shine-text {
     justify-content: center !important;
     padding-left: 0 !important;
     padding-top: 180px;
+    
   }
 
   #about .fade-slide {
@@ -1403,7 +1415,6 @@ button, .collect-btn, .learn-more-link, nav a, .project-title {
 
 
 
-
 /* PROJECT PAGE ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
  .projects-page .content {
   
@@ -1425,6 +1436,8 @@ button, .collect-btn, .learn-more-link, nav a, .project-title {
 }
 
 .projects-page p {
+  padding-top: 16px;
+  padding-bottom: 16px;
   color: #3d405b;
   text-align: left;
 }
@@ -1439,6 +1452,7 @@ button, .collect-btn, .learn-more-link, nav a, .project-title {
 .project-section.glass {
   width: 100%;
   max-width: 1500px;
+  min-width: 100px;
   margin: 0 auto;
   padding: 5rem 5rem 5rem 7rem; /* Increased left padding for better text wrap */
   background: rgba(255, 255, 255, 0.18); /* more transparent glass effect */
@@ -1456,7 +1470,8 @@ button, .collect-btn, .learn-more-link, nav a, .project-title {
   max-height: 220px;     /* smaller max height */
   object-fit: contain;   /* show full image, no cropping */
   border-radius: 16px;
-  margin-bottom: 1.2rem;
+  margin-top: 16px;
+  margin-bottom: 16px;
   box-shadow: 0 2px 12px rgba(60, 64, 91, 0.10);
   display: block;
   background: #fff;      /* optional: white background for transparency */
@@ -1464,8 +1479,8 @@ button, .collect-btn, .learn-more-link, nav a, .project-title {
 
 .project-section h2 {
   margin-top: 0;
-  font-family: 'Albert Sans', sans-serif;
-  color: #E07A5F;
+  font-family: 'Bungee', sans-serif;
+  color: #3d405b;
   text-align: left;
 }
 
@@ -1479,10 +1494,10 @@ button, .collect-btn, .learn-more-link, nav a, .project-title {
     margin-bottom: 1.2rem;
 }
 
-.project-steps h4 {
-    margin-top: 0px;
+ .project-section h4 {
+    padding-top: 16px;
     color: #E07A5F;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 300;
 }
 
